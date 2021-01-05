@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&family=Sriracha&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #393b39;
+}
+
+@media screen and (max-width:1136px) {
+
+  .nav-links li a{
+    padding: 14px 6px;
+  }
+}
+@media screen and (max-width:1024px) {
+
+   .nav-links{
+    width: 78%;
+
+
+  }
+  .nav-links li a{
+    padding: 14px 7px;
+  }
+  .nav-links a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 12px;
+
+
+}
